@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: grey;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 40px;
+  color: White;
+  font-size: 100px;
+}
+
+.users {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.boxes {
+  margin: 20px;
+  width: 150px;
+  height: 300px;
+  background-color: white;
+  flex: 1 10%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 40px 60px;
+  border: solid lightblue;
+  border-width: .5px;
+  border-radius: 5%;
+}
+
+a {
+  text-decoration: none;
+  line-height: 1.8;
+}
